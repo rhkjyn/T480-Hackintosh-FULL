@@ -22,7 +22,7 @@ MacOS Mojave on Lenovo ThinkPad T480 Hackintosh 黑苹果
 
 ## 完善驱动
 1. 声卡：使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；
-2. 网卡：INTEL的无线网卡截止到目前还是全球无解，更换为DW1560 BCM94352Z芯片；
+2. 网卡：INTEL的无线网卡截止到目前还是全球无解，更换为DW1560 BCM94352Z芯片；因为无线网卡如果没有正确更换，会导致系统无法正常开机，故EFI中不包含驱动，请自行按教程集成：https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html
 3. 显卡：Intel UHD Graphics 620；外接HDMI显示器工作正常；
 4. 蓝牙工作正常；睡眠唤醒工作正常；
 5. 电池信息正常；
