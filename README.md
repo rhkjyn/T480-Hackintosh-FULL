@@ -14,7 +14,7 @@ MacOS Mojave on Lenovo ThinkPad T480 Hackintosh 黑苹果
 |显卡|Intel UHD Graphics 620|
 |显示器|FHD 1366x768 (14 英寸)|
 |声卡|ALC3287codec|
-|无线网卡|英特尔7265已更换为Bcm94352z(14E4:43B1)|
+|无线网卡|已更换为Bcm94352z(必需换）|
 |有线网卡|Intel Ethernet Connection I219-V|
 
 ## 安装镜像
