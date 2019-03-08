@@ -69,28 +69,15 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 kext-dev-mode=1 -f slide=0</string>
+		<string>nv_disable=1 dart=0 kext-dev-mode=1 -f</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>Fast</key>
-		<true/>
-		<key>Legacy</key>
-		<string>LegacyBiosDefault</string>
-		<key>Log</key>
-		<false/>
-		<key>NeverHibernate</key>
-		<true/>
-		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>XMPDetection</key>
 		<string>Yes</string>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>UseARTFrequency</key>
-		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
