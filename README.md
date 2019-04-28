@@ -30,3 +30,10 @@ MacOS Mojave on Lenovo ThinkPad T480 Hackintosh 黑苹果
 7. 显示器亮度调节正常；亮度调节快捷键：`fn+F5`和`fn+F6`；音量调节正常，快捷键：F1  F2  F3
 8. USB端口全部正常并开启5G速率，type-c接口己开启，雷电3中的type-c也正常；摄像头已内建；
 9. 基本完美了，CPU自动降频正常，只差待机耗电和发热不会搞，有会的告诉我下。
+
+
+Keyboard/Elan Touchpad (PS/2) using ApplePS2SmartTouchPad.kext v4.7b5 by EMlyDinEsH
+Support multi-touch gestures
+Need to disable Trackpoint in BIOS (otherwise touchpad would be disconnected)
+The SSDT-KBD.aml is tuned for ApplePS2SmartTouchPad.kext. If you want to switch to VoodooPS2Controller.kext, use SSDT-KBD.aml in backup folder instead.
+
